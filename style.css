@@ -1,0 +1,141 @@
+@font-face {
+	font-family: Gotham;
+	src: url('assets/gotham-bold.woff2') format('woff2'),
+	url('assets/gotham-bold.woff') format('woff');
+}
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+svg {
+	fill: white;
+	height: auto;
+	max-height: 48px;
+}
+img {
+	height: auto;
+	width: auto;
+	max-height: 48px;
+	max-width: 70%;
+}
+.link > svg {
+	width: 48px;
+}
+#nrglab svg {
+	width: 60px;
+}
+svg#pcpartpicker {
+	width: 70%;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	padding: 30px;
+	min-height: calc(100vh - 60px);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	background-color: #222;
+	color: white;
+	font-size: 28pt;
+	background-image: linear-gradient(lightblue, lightgreen);
+	font-family: Gotham, sans-serif;
+}
+
+body > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: calc(100% - 80px);
+	max-width: 800px;
+	margin-bottom: 25px;
+}
+body > div:last-child {
+	margin-bottom: 0;
+}
+body > div > * {
+	display: flex;
+	flex-flow: row nowrap;
+	height: 110px;
+}
+.flex {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+.link {
+	padding: 0 10px;
+	background-color: #0005;
+	transition-duration: 0.4s;
+}
+.triangle {
+	transition-duration: 0.4s;
+}
+.triangle.a {
+	border-right: 30px solid #0005;
+	border-top: 110px solid transparent;
+}
+.triangle.b {
+	border-left: 30px solid #0005;
+	border-bottom: 110px solid transparent;
+}
+
+.even {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.even > * {
+	width: 100%;
+}
+.even .link {
+	width: 100%;
+}
+
+
+#nrglab {
+	font-size: 32pt;
+}
+#nrglab > .long {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+}
+.long > .link {
+	width: 100%;
+}
+#nrglab > .long > :first-child > * {
+	margin: 0 8px;
+}
+.links > * {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.links > :last-child > .link {
+	padding-right: 25px;
+	padding-left: 12px;
+}
+a:hover .flex {
+	background-color: #0008;
+}
+a:hover .triangle.a {
+	border-right-color: #0008;
+}
+a:hover .triangle.b {
+	border-left-color: #0008;
+}
+
+h2 {
+	color: #000c;
+	font-size: 16pt;
+	margin-bottom: 10px;
+}
+h2:not(:first-child) {
+	margin-top: 50px;
+}
