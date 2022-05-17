@@ -1,0 +1,19 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+}
+
+footer {
+	position: sticky;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background: #ddd;
+	text-align: center;
+	padding: 14px 0;
+}
+
+small {
+	display: block;
+	margin: 12px;
+}
