@@ -1,0 +1,28 @@
+title: Britannica Code
+description: Britannica Code is the tech blog of a professional British software developer placed on this Earth to de-mystify technology alongside a dry wit.
+
+timezone: Europe/London
+lang: EN
+locale: en_GB
+
+baseurl: ""
+url: "aidlran.github.io"
+
+author: Aidan Loughran
+email: aidlo.dev@pm.me
+twitter_username: aidlran
+github_username: aidlran
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Blog post URL structure
+permalink: /blog/:year/:month/:day/:title
