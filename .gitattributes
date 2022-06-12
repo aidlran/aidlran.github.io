@@ -1,2 +1,5 @@
 # Normalise line endings
 * text=auto
+
+# Hide .lock in diffs & language stats
+*.lock binary linguist-detectable=false

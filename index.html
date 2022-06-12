@@ -7,8 +7,8 @@ description: Software developer and technology writer.
 <div>
 	<main class="page-content" aria-label="Content">
 		<div itemprop="author" itemscope itemtype="http://schema.org/Person">
-			<h1 itemprop="name">Aidan Loughran</h1>
-			<img itemprop="image" id="headshot" alt="Aidan Loughran" src="/img/author.jpg">
+			<h1 itemprop="name">{{ site.author }}</h1>
+			<img itemprop="image" id="headshot" alt="{{ site.author }}" src="/img/author.jpg">
 		</div>
 		<nav>
 			<div id="social-links">
@@ -28,6 +28,6 @@ description: Software developer and technology writer.
 </div>
 <footer>
 	<small>This landing page and website is under construction.</small>
-	<small>Website content and design © 2022 Aidan Loughran.</small>
+	<small>Website content and design © 2022 {{ site.author }}.</small>
 	<small>Please report any bugs or issues at the <a href="https://github.com/{{ site.github_username }}/{{ site.url }}/issues">issues tracker</a>.</small>
 </footer>
