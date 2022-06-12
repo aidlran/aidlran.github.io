@@ -1,19 +1,99 @@
+:root {
+	--c-bg: #fdfdfd;
+	--c-fg: #828282;
+	--c-link: #2a7ae2;
+	font-family: helvetica, sans-serif;
+	font-size: 100%;
+}
+
+body, h1, ul {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	min-height: 100vh;
-	margin: 0;
+	display: grid;
+	grid-template: auto min-content / auto;
+	background: var(--c-bg);
+	color: var(--c-fg);
+	text-align: center;
+}
+
+body > div {
+	display: flex;
+}
+
+main {
+	margin: auto;
+	font-family: Noto Sans Gothic, Century Gothic, Trebuchet, sans-serif;
 }
 
 footer {
-	position: sticky;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	background: #ddd;
-	text-align: center;
 	padding: 14px 0;
+}
+
+h1 {
+	font-size: 2.4em;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--c-link);
+	transition: 0.34s ease-out;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 small {
 	display: block;
 	margin: 12px;
+}
+
+#headshot {
+	overflow: hidden;
+	border-radius: 100%;
+	border: 7px solid var(--c-bg);
+	box-shadow: 0 0 6px 1px #0004;
+	margin: 10px;
+}
+
+#social-links a {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	padding: 3px;
+	margin: 7px;
+}
+
+#social-links svg {
+	transform: scale(2);
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	fill: var(--c-fg);
+	vertical-align: text-bottom;
+}
+
+#social-links a:hover svg {
+	fill: var(--c-link);
+}
+
+#buttons a {
+	display: inline-block;
+	width: 180px;
+	margin: 20px 8px;
+	padding: 18px 0;
+	border: 3px solid var(--c-link);
+	border-radius: 3px;
+	font-size: 1.25rem;
+}
+
+#buttons a:hover {
+	background: var(--c-link);
+	color: var(--c-bg);
+	text-decoration: none;
 }

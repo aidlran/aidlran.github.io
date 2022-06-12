@@ -1,20 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="author" content="Aidan Loughran">
-	<meta name="description" content="Homepage for Aidan Loughran.">
-	<title>Aidan Loughran</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main>
-
-</main>
+---
+layout: blank
+title: Aidan Loughran
+description: Software developer and technology writer.
+---
+<link rel="stylesheet" href="style.css">
+<div>
+	<main class="page-content" aria-label="Content">
+		<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<h1 itemprop="name">Aidan Loughran</h1>
+			<img itemprop="image" id="headshot" alt="Aidan Loughran" src="/img/author.jpg">
+		</div>
+		<nav>
+			<div id="social-links">
+				<a rel="me" href="https://github.com/{{ site.github_username }}" target="_blank" title="{{ site.author }} GitHub"><svg><use href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+				<a rel="me" href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="{{ site.author }} Twitter"><svg><use href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
+			</div>
+			<div id="buttons">
+				<a href="/blog/">
+					<span>Go to blog</span>
+				</a>
+				<a href="/doc/cv.pdf">
+					<span>Download CV</span>
+				</a>
+			</div>
+		</nav>
+	</main>
+</div>
 <footer>
+	<small>This landing page and website is under construction.</small>
 	<small>Website content and design © 2022 Aidan Loughran.</small>
-	<small>Please report any bugs or issues at the <a href="https://github.com/aidlran/aidlran.github.io/issues">issues tracker</a>.</small>
+	<small>Please report any bugs or issues at the <a href="https://github.com/{{ site.github_username }}/{{ site.url }}/issues">issues tracker</a>.</small>
 </footer>
-</body>
-</html>
