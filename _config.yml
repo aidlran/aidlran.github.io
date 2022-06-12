@@ -8,21 +8,33 @@ locale: en_GB
 baseurl: ""
 url: "aidlran.github.io"
 
-author: Aidan Loughran
-email: aidlo.dev@pm.me
-twitter_username: aidlran
-github_username: aidlran
-
 # Build settings
-markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+markdown: kramdown
+
+# theme: minima
+remote_theme: jekyll/minima
+
+author:
+  name: Aidan Loughran
+  email: aidlo.dev@pm.me
+
+minima:
+  skin: dark
+  social_links:
+    twitter: aidlran
+    github: aidlran
+
+show_excerpts: true
 
 # Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
 
 # Blog post URL structure
 permalink: /blog/:slug

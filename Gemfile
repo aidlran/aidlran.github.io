@@ -3,8 +3,9 @@ source "https://rubygems.org"
 # Jekyll version for GitHub Pages
 gem "jekyll", "~> 3.9.2"
 
-# Default Jekyll theme
-gem "minima", "~> 2.0"
+# Jekyll theme
+# gem "minima", git: "https://github.com/jekyll/minima"
+gem "jekyll-remote-theme"
 
 # Jekyll plugins
 group :jekyll_plugins do
