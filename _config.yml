@@ -2,7 +2,7 @@ title: Britannica Code
 description: Britannica Code is the tech blog of a professional British software developer placed on this Earth to de-mystify technology alongside a dry wit.
 
 timezone: Europe/London
-lang: EN
+lang: en
 locale: en_GB
 
 baseurl: ""
@@ -11,6 +11,7 @@ url: "aidlran.github.io"
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-remote-theme
 
 markdown: kramdown
