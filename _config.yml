@@ -44,4 +44,4 @@ exclude:
   - README.md
 
 # Blog post URL structure
-permalink: /blog/:slug
+permalink: /blog/:categories/:slug
