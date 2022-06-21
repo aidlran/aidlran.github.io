@@ -2,4 +2,15 @@
 * text=auto
 
 # Hide .lock in diffs & language stats
-*.lock binary linguist-detectable=false
+/Gemfile.lock binary linguist-detectable=false
+
+# Show more things in language stats
+*.md   linguist-detectable=true
+*.json linguist-detectable=true
+*.yml  linguist-detectable=true
+*.xml  linguist-detectable=true
+
+# But not _posts or README
+/_posts/*.md linguist-detectable=false
+/README.md linguist-detectable=false
+
