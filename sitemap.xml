@@ -21,4 +21,8 @@
         <loc>https://{{ site.url }}/blog/jekyll/getting-started</loc>
         <lastmod>2022-06-20</lastmod>
     </url>
+    <url>
+        <loc>https://{{ site.url }}/blog/vim/stuck-in-vim</loc>
+        <lastmod>2022-06-21</lastmod>
+    </url>
 </urlset>
