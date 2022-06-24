@@ -12,7 +12,6 @@ locale: en_GB
 baseurl: ""
 url: "aidlran.github.io"
 
-# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -32,16 +31,15 @@ minima:
   social_links:
     twitter: aidlran
     github: aidlran
+    linkedin: aidan-loughran-a1a1a0243
 
 google_analytics: G-5JY588LXRZ
 show_excerpts: true
 
-# Exclude from processing.
 exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
   - README.md
 
-# Blog post URL structure
 permalink: /blog/:categories/:slug
