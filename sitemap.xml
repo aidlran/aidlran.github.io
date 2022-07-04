@@ -20,4 +20,8 @@
         <loc>https://{{ site.url }}/blog/vim/stuck-in-vim</loc>
         <lastmod>2022-06-21</lastmod>
     </url>
+    <url>
+        <loc>https://{{ site.url }}/blog/node/secure-development</loc>
+        <lastmod>2022-07-04</lastmod>
+    </url>
 </urlset>
