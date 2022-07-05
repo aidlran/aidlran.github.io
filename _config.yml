@@ -42,4 +42,7 @@ exclude:
   - Gemfile.lock
   - README.md
 
+include:
+  - .well-known
+
 permalink: /blog/:categories/:slug

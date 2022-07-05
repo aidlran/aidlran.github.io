@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: aidlran.github.io
+Token: 4b15f554b4496976222f84172c8e19fc7cd38cb0fe0052e25721347d38e15ad6
