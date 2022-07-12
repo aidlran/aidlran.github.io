@@ -8,6 +8,10 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc>https://{{ site.url }}/donate</loc>
+        <lastmod>2022-07-12</lastmod>
+    </url>
+    <url>
         <loc>https://{{ site.url }}/blog/</loc>
         <lastmod>2022-06-20</lastmod>
         <changefreq>weekly</changefreq>
