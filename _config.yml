@@ -1,4 +1,5 @@
 title: DistroYob
+tagline: Technology blog by Aidan Loughran
 description: >-
   DistroYob is a technology blog with themes including software development,
   Linux wizardry, opsec & privacy advocacy, and cyber security.
@@ -25,6 +26,20 @@ remote_theme: jekyll/minima
 author:
   name: Aidan Loughran
   email: aidlo.dev@pm.me
+  twitter: aidlran
+  url: https://aidlran.github.io
+  picture: /img/author.jpg
+
+twitter:
+  url: aidlran
+  card: summary_large_image
+
+social:
+  name: Aidan Loughran
+  links:
+    - https://github.com/aidlran
+    - https://twitter.com/aidlran
+    - https://www.linkedin.com/in/aidan-loughran-a1a1a0243/
 
 minima:
   skin: dark

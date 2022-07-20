@@ -4,6 +4,7 @@ title: Secure Node.js Development on Linux
 date: 2022-07-04
 categories: node
 slug: secure-development
+image: /img/node_modules-meme.png
 ---
 Node.js is an incredibly popular and extremely useful technology, and it comes with a great community that contributes to a vast ecosystem of awesome, open-source packages. This system, however, has its flaws. **Serious security flaws.** This article will offer advice to help mitigate them.
 
