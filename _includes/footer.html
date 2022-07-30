@@ -1,0 +1,58 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col">
+
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+
+        <p class="feed-subscribe">
+          <a href="{{ 'donate' | relative_url }}">
+            <svg class="svg-icon" style="fill:#ff78ae">
+              <use xlink:href="{{ 'assets/heart.svg#heart' | relative_url }}"></use>
+            </svg><span>Donate</span>
+          </a>
+        </p>
+
+        <p class="feed-subscribe">
+          <a href="https://github.com/{{ site.minima.social_links.github }}/{{ site.url }}/issues">
+            <svg class="svg-icon grey">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#github' | relative_url }}"></use>
+            </svg><span>Issues</span>
+          </a>
+        </p>
+
+      </div>
+
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+    {%- if site.author %}
+    <div class="social-links">
+      <ul class="contact-list">
+        {% if site.author.name -%}
+        <li class="p-name">{{ site.author.name | escape }}</li>
+        {% endif -%}
+        {% if site.author.email -%}
+        <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+        {%- endif %}
+      </ul>
+    </div>
+    {%- endif %}
+
+  </div>
+</footer>
