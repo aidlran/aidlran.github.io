@@ -1,15 +1,23 @@
 ---
 layout: post
-title: Donate
+title: Support the Site
 ---
 <style>
 .dono-qr {
   height: 240px;
   width: 240px;
 }
+
+details, summary {
+  cursor: pointer;
+}
+
+details img {
+  cursor: default;
+}
 </style>
 
-Your support will help me to continue contributing time to FOSS projects. Thank you so much!
+Your support will help me to continue contributing time to FOSS and my projects. Thank you so much!
 I'll be more than happy to return the favour and provide you with support for any of my projects.
 You can always get in touch via Twitter or any other social media in the page footer. 
 
