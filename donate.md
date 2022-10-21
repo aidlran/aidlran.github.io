@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Support the Site
+title: Support Me
 ---
 <style>
 .dono-qr {
@@ -17,9 +17,9 @@ details img {
 }
 </style>
 
-Your support will help me to continue contributing time to FOSS and my projects. Thank you so much!
-I'll be more than happy to return the favour and provide you with support for any of my projects.
-You can always get in touch via Twitter or any other social media in the page footer. 
+Contributions help me to dedicate more and resources to FOSS.
+
+Please, shoot me a message so that I can thank you personally, and I will be more than happy to provide help and support for my projects!
 
 ## PayPal
 
