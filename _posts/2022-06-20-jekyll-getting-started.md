@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Getting Started With Jekyll
+author: Aidan Loughran
 date: 2022-06-20
 categories: jekyll
 slug: getting-started

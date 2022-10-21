@@ -13,4 +13,3 @@
 # But not _posts or README
 /_posts/*.md linguist-detectable=false
 /README.md linguist-detectable=false
-

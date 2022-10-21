@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Secure Node.js Development on Linux
+author: Aidan Loughran
 date: 2022-07-04
 categories: node
 slug: secure-development
 image: /img/node_modules-meme.png
 ---
+
 Node.js is an incredibly popular and extremely useful technology, and it comes with a great community that contributes to a vast ecosystem of awesome, open-source packages. This system, however, has its flaws. **Serious security flaws.** This article will offer advice to help mitigate them.
 
 The **Linux platform security** advice contained within this article can be applied to other languages and package management systems but is aimed mostly at Node and NPM as they are, shall we say, *extensively critiqued.*
