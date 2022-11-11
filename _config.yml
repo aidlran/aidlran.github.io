@@ -50,10 +50,14 @@ google_analytics: G-5JY588LXRZ
 show_excerpts: true
 
 exclude:
-  - vendor
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - package-lock.json
   - README.md
+  - vendor
+  - wishlist-config.json
+  - wishlists
 
 include:
   - .well-known

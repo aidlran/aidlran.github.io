@@ -1,0 +1,15 @@
+{
+  "name": "aidlran.github.io",
+  "description": "My website.",
+  "private": true,
+  "author": "Aidan Loughran <aidlo.dev@pm.me> (https://aidlran.github.io)",
+  "homepage": "https://aidlran.github.io",
+  "bugs": "https://github.com/aidlran/aidlran.github.io/issues",
+  "repository": "github:aidlran/aidlran.github.io",
+  "scripts": {
+    "build": "web-wishlist build"
+  },
+  "dependencies": {
+    "web-wishlist": "github:aidlran/web-wishlist#1.x"
+  }
+}

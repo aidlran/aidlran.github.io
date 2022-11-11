@@ -1,15 +1,14 @@
 # Normalise line endings
 * text=auto
 
-# Hide .lock in diffs & language stats
-/Gemfile.lock binary linguist-detectable=false
-
 # Show more things in language stats
 *.md   linguist-detectable=true
 *.json linguist-detectable=true
 *.yml  linguist-detectable=true
 *.xml  linguist-detectable=true
 
-# But not _posts or README
-/_posts/*.md linguist-detectable=false
-/README.md linguist-detectable=false
+# Hide certain things from diffs and/or language stats
+/package.json              linguist-detectable=false
+/package-lock.json  binary linguist-detectable=false
+/Gemfile.lock       binary linguist-detectable=false
+/README.md                 linguist-detectable=false

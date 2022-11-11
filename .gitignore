@@ -1,2 +1,10 @@
+# Ruby
+.bundle/
+vendor/
+
+# Jekyll
 _site/
 .sass-cache/
+
+# NPM
+node_modules/
