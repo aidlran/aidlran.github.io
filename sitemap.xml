@@ -5,16 +5,17 @@
     <url>
         <loc>https://{{ site.url }}</loc>
         <lastmod>2022-06-12</lastmod>
-        <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://{{ site.url }}/donate</loc>
         <lastmod>2022-07-12</lastmod>
     </url>
     <url>
+        <loc>https://{{ site.url }}/linux-bible</loc>
+    </url>
+    <url>
         <loc>https://{{ site.url }}/blog/</loc>
         <lastmod>2022-06-20</lastmod>
-        <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://{{ site.url }}/blog/jekyll/getting-started</loc>
@@ -25,11 +26,15 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://{{ site.url }}/update/2022-10</loc>
+        <loc>https://{{ site.url }}/blog/update/2022-10</loc>
         <lastmod>2022-10-21</lastmod>
     </url>
     <url>
-        <loc>https://{{ site.url }}/home-server/update-2022-10-background</loc>
+        <loc>https://{{ site.url }}/blog/home-server/update-2022-10-background</loc>
         <lastmod>2022-10-21</lastmod>
+    </url>
+    <url>
+        <loc>https://{{ site.url }}/blog/web-dev/nrglab-website-migration</loc>
+        <lastmod>2022-11-15</lastmod>
     </url>
 </urlset>
