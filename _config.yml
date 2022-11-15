@@ -14,12 +14,10 @@ url: "aidlran.github.io"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 markdown: kramdown
 
-# theme: minima
-remote_theme: jekyll/minima
+theme: minima
 
 author:
   name: Aidan Loughran

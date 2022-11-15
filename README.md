@@ -45,3 +45,7 @@ npm run build
 ```
 
 > **Note:** Jekyll will clear the `_site` directory when it builds, so building the additional components should be done after Jekyll does its thing.
+
+## TODO
+
+- Migrate to another framework, maybe Hugo, because Jekyll kinda annoys me. Eventually, move to [my own](https://github.com/aidlran/static-site-generator).
