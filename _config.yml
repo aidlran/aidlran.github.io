@@ -55,7 +55,6 @@ exclude:
   - README.md
   - vendor
   - wishlist-config.json
-  - wishlists
 
 include:
   - .well-known

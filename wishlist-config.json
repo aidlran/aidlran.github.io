@@ -1,3 +1,4 @@
 {
-  "out": "./_site/wishlist/"
+  "out": "./wishlist/",
+  "wishlists": "./_wishlists"
 }

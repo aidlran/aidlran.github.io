@@ -23,34 +23,48 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
+      # Checkout the commit
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Jekyll stuff
+      # Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      # Setup Ruby
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
           bundler-cache: true
-      - run: bundle exec jekyll build
 
-      # Node stuff
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm ci
-      - run: npm run build
+      # Install Node dependencies
+      - name: Install NPM dependencies
+        run: npm ci
 
-      # GitHub Pages stuff
-      - name: Setup Pages
+      # Build web-wishlists
+      - name: Build wishlists
+        run: npm exec web-wishlist build
+
+      # Build Jekyll site
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      # Setup GitHub Pages
+      - name: Setup GitHub Pages
         id: pages
         uses: actions/configure-pages@v2
+
+      # Upload GitHub Pages artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./_site
+          path: ./_site/
 
+  # Deploy artifact to GitHub Pages
   deploy:
     environment:
       name: github-pages

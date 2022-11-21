@@ -8,3 +8,6 @@ _site/
 
 # NPM
 node_modules/
+
+# web-wishlist
+wishlist/
