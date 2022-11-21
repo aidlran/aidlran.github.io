@@ -48,4 +48,5 @@ npm run build
 
 ## TODO
 
-- Migrate to another framework, maybe Hugo, because Jekyll kinda annoys me. Eventually, move to [my own](https://github.com/aidlran/static-site-generator).
+- [ ] Look into plugins especially for SEO.
+- [ ] Migrate to another framework, maybe Hugo, because Jekyll kinda annoys me. Eventually, move to [my own](https://github.com/aidlran/static-site-generator).

@@ -7,7 +7,9 @@
   "bugs": "https://github.com/aidlran/aidlran.github.io/issues",
   "repository": "github:aidlran/aidlran.github.io",
   "scripts": {
-    "build": "web-wishlist build"
+    "build": "web-wishlist build",
+    "decrypt": "web-wishlist decrypt xmas",
+    "encrypt": "web-wishlist encrypt xmas"
   },
   "dependencies": {
     "web-wishlist": "github:aidlran/web-wishlist#1.x"
