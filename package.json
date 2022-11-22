@@ -12,6 +12,6 @@
     "encrypt": "web-wishlist encrypt xmas"
   },
   "dependencies": {
-    "web-wishlist": "github:aidlran/web-wishlist#1.x"
+    "web-wishlist": "github:aidlran/web-wishlist#v1.0.0"
   }
 }
