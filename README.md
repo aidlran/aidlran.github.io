@@ -2,7 +2,7 @@
 
 # My Website
 
-[aidlran.github.io](https://aidlran.github.io)
+[loughran.dev](https://loughran.dev)
 
 </div>
 

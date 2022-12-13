@@ -9,7 +9,7 @@ lang: en
 locale: en_GB
 
 baseurl: ""
-url: "aidlran.github.io"
+url: "loughran.dev"
 
 plugins:
   - jekyll-feed
@@ -23,7 +23,7 @@ author:
   name: Aidan Loughran
   email: aidlo.dev@pm.me
   twitter: aidlran
-  url: https://aidlran.github.io
+  url: https://loughran.dev
   picture: /img/author.jpg
 
 twitter:
@@ -55,8 +55,5 @@ exclude:
   - README.md
   - vendor
   - wishlist-config.json
-
-include:
-  - .well-known
 
 permalink: /blog/:categories/:slug
