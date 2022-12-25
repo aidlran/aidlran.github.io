@@ -41,7 +41,7 @@ title:'Donate with PayPal - The safer, easier way to pay online!',
 
 ## Bitcoin (BTC)
 
-**Address:** `bc1qsu8n568thd7ykrj8jk96jeex30e4w8vu9yd0hv`
+**Address:** `bc1q5cumftgrmwdkm9u2tpxkhr342l94tzntyz4g4x`
 
 <details>
   <summary><b>QR code (click to reveal)</b></summary>
