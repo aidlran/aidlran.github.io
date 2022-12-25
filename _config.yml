@@ -21,7 +21,7 @@ theme: minima
 
 author:
   name: Aidan Loughran
-  email: aidlo.dev@pm.me
+  email: aidan@loughran.dev
   twitter: aidlran
   url: https://loughran.dev
   picture: /img/author.jpg
@@ -35,14 +35,16 @@ social:
   links:
     - https://github.com/aidlran
     - https://twitter.com/aidlran
+    - https://www.instagram.com/aidlran
     - https://www.linkedin.com/in/aidan-loughran-a1a1a0243/
 
 minima:
   skin: dark
   social_links:
-    twitter: aidlran
     github: aidlran
+    instagram: aidlran
     linkedin: aidan-loughran-a1a1a0243
+    twitter: aidlran
 
 google_analytics: G-5JY588LXRZ
 show_excerpts: true
