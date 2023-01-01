@@ -36,14 +36,14 @@ social:
     - https://github.com/aidlran
     - https://twitter.com/aidlran
     - https://www.instagram.com/aidlran
-    - https://www.linkedin.com/in/aidan-loughran-a1a1a0243/
+    - https://www.linkedin.com/in/aidanloughran
 
 minima:
   skin: dark
   social_links:
     github: aidlran
     instagram: aidlran
-    linkedin: aidan-loughran-a1a1a0243
+    linkedin: aidanloughran
     twitter: aidlran
 
 google_analytics: G-5JY588LXRZ
