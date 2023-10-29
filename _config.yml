@@ -35,23 +35,26 @@ social:
   links:
     - https://github.com/aidlran
     - https://twitter.com/aidlran
-    - https://www.instagram.com/aidlran
     - https://www.linkedin.com/in/aidanloughran
 
 minima:
   skin: dark
   social_links:
-    github: aidlran
-    instagram: aidlran
-    linkedin: aidanloughran
-    twitter: aidlran
+    - platform: github
+      user_url: https://github.com/aidlran
+    - platform: linkedin
+      user_url: https://github.com/aidanloughran
+    - platform: twitter
+      user_url: https://twitter.com/aidlran
 
 google_analytics: G-5JY588LXRZ
 show_excerpts: true
 
 exclude:
+  - lib
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - package.json
   - package-lock.json
   - README.md

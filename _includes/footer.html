@@ -7,22 +7,22 @@
 
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            <svg class="svg-icon">
+              {%- include social-icons/rss.svg -%}
             </svg><span>Subscribe</span>
           </a>
         </p>
 
         <p class="feed-subscribe">
           <a href="{{ 'donate' | relative_url }}">
-            <svg class="svg-icon" style="fill:#ff78ae">
+            <svg class="svg-icon">
               <use xlink:href="{{ 'assets/heart.svg#heart' | relative_url }}"></use>
             </svg><span>Donate</span>
           </a>
         </p>
 
         <p class="feed-subscribe">
-          <a href="https://github.com/{{ site.minima.social_links.github }}/{{ site.url }}/issues">
+          <a href="https://github.com/aidlran/aidlran.github.io/issues">
             <svg class="svg-icon grey">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#github' | relative_url }}"></use>
             </svg><span>Issues</span>
@@ -47,9 +47,9 @@
         {% if site.author.name -%}
         <li class="p-name">{{ site.author.name | escape }}</li>
         {% endif -%}
-        {% if site.author.email -%}
+        <!-- {% if site.author.email -%}
         <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-        {%- endif %}
+        {%- endif %} -->
       </ul>
     </div>
     {%- endif %}

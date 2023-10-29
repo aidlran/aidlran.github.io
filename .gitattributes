@@ -8,7 +8,7 @@
 *.xml  linguist-detectable=true
 
 # Hide certain things from diffs and/or language stats
-/package.json              linguist-detectable=false
-/package-lock.json  binary linguist-detectable=false
-/Gemfile.lock       binary linguist-detectable=false
-/README.md                 linguist-detectable=false
+/package.json      linguist-detectable=false
+package-lock.json  linguist-generated
+Gemfile.lock       linguist-generated
+README.md          linguist-detectable=false

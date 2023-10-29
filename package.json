@@ -2,16 +2,19 @@
   "name": "loughran.dev",
   "description": "My website.",
   "private": true,
-  "author": "Aidan Loughran <aidlo.dev@pm.me> (https://loughran.dev)",
+  "author": "Aidan Loughran",
   "homepage": "https://loughran.dev",
   "bugs": "https://github.com/aidlran/aidlran.github.io/issues",
   "repository": "github:aidlran/aidlran.github.io",
+  "workspaces": [
+    "lib/*"
+  ],
   "scripts": {
     "build": "web-wishlist build",
-    "decrypt": "web-wishlist decrypt xmas",
-    "encrypt": "web-wishlist encrypt xmas"
+    "decrypt": "web-wishlist decrypt wishlist",
+    "encrypt": "web-wishlist encrypt wishlist"
   },
   "dependencies": {
-    "web-wishlist": "github:aidlran/web-wishlist#v1.0.0"
+    "web-wishlist": "file:lib/web-wishlist"
   }
 }

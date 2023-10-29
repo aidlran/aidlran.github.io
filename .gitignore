@@ -11,3 +11,6 @@ node_modules/
 
 # web-wishlist
 wishlist/
+
+# VS Code
+.vscode
