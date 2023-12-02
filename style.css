@@ -83,8 +83,7 @@ small {
 
 #buttons a {
 	display: inline-block;
-	margin: 16px;
-	padding: 16px;
-	border-radius: 6px;
+	margin: 8px;
+	padding: 14px;
 	font-size: 1.25rem;
 }
