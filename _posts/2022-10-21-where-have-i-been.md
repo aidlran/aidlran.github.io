@@ -5,6 +5,7 @@ author: Aidan Loughran
 date: 2022-10-21 13:20
 categories: update
 slug: 2022-10
+published: false
 ---
 
 It has been a few months since I posted and so I am writing a brief update about what I've been up to in that time.

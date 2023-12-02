@@ -6,6 +6,7 @@ date: 2022-06-20
 categories: jekyll
 slug: getting-started
 image: /img/jekyll-init.png
+published: false
 ---
 Every tech enthusiast needs their own blog, right? I decided I did, and I recently got around to playing with GitHub pages and Jekyll to see what I could get out of it. Here's how I got started deploying and customising my website and blog.
 

@@ -84,16 +84,8 @@ small {
 
 #buttons a {
 	display: inline-block;
-	width: 180px;
-	margin: 20px 8px;
-	padding: 18px 0;
-	border: 3px solid var(--c-link);
-	border-radius: 3px;
+	margin: 16px;
+	padding: 16px;
+	border-radius: 6px;
 	font-size: 1.25rem;
-}
-
-#buttons a:hover {
-	background: var(--c-link);
-	color: var(--c-bg);
-	text-decoration: none;
 }
