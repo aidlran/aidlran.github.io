@@ -10,7 +10,7 @@ A novel collection of protocols to build fully decentralized multi-user applicat
 
 ## [LUNA](https://github.com/aidlran/luna)
 
-A cross-platform productivity application suite based on Librebase and using SvelteKit.
+A cross-platform productivity application suite, based on Librebase, using SvelteKit with Ionic.
 
 ## [Signals](https://github.com/aidlran/signals)
 

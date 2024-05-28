@@ -19,6 +19,7 @@ markdown: kramdown
 theme: minima
 
 author:
+  email: aidan@loughran.dev
   name: Aidan Loughran
   url: https://loughran.dev
 
