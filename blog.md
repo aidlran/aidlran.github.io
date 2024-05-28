@@ -1,5 +1,4 @@
 ---
-layout: home
-permalink: /blog/
-title: Blog Home
+layout: redirect
+redirect_url: ../
 ---

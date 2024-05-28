@@ -1,8 +1,7 @@
 title: Aidan Loughran
-tagline: Technology blog by Aidan Loughran
+tagline: Software Engineer
 description: >-
-  A technology blog with writings on software development,
-  Linux and security & privacy advocacy.
+  A full stack software engineer with a focus on decentralized systems, cryptography, and cybersecurity.
 
 timezone: Europe/London
 lang: en
@@ -21,20 +20,15 @@ theme: minima
 
 author:
   name: Aidan Loughran
-  email: aidan@loughran.dev
-  twitter: aidlran
   url: https://loughran.dev
-  picture: /img/author.jpg
 
 twitter:
-  url: aidlran
   card: summary_large_image
 
 social:
   name: Aidan Loughran
   links:
     - https://github.com/aidlran
-    - https://twitter.com/aidlran
     - https://www.linkedin.com/in/aidanloughran
 
 minima:
@@ -44,21 +38,14 @@ minima:
       user_url: https://github.com/aidlran
     - platform: linkedin
       user_url: https://github.com/aidanloughran
-    - platform: twitter
-      user_url: https://twitter.com/aidlran
 
 google_analytics: G-5JY588LXRZ
 show_excerpts: true
 
 exclude:
-  - lib
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - package.json
-  - package-lock.json
   - README.md
   - vendor
-  - wishlist-config.json
 
 permalink: /blog/:categories/:slug
