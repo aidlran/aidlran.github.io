@@ -4,13 +4,5 @@ vendor/
 
 # Jekyll
 _site/
+.jekyll-cache/
 .sass-cache/
-
-# NPM
-node_modules/
-
-# web-wishlist
-wishlist/
-
-# VS Code
-.vscode
