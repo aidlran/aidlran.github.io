@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/jekyll/minima.git
-  revision: 85374864e0311f544f49139078927b41ecbe8792
-  ref: 8537486
+  revision: 1d5286cf9a1aae34078420d183d560dd673d98b5
+  ref: 1d5286c
   specs:
     minima (3.0.0.dev)
       jekyll (>= 3.5, < 5.0)
@@ -65,7 +65,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rexml (3.3.2)
+    rexml (3.3.4)
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)

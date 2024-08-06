@@ -4,7 +4,7 @@ gem 'jekyll'
 
 gem 'minima',
   :github => 'jekyll/minima',
-  :ref => '8537486' # 2023-10-09
+  :ref => '1d5286c' # 2024-05-21
 
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
