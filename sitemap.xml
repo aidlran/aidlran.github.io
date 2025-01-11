@@ -4,34 +4,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://{{ site.url }}</loc>
-        <lastmod>2022-06-12</lastmod>
+        <lastmod>2025-01-11</lastmod>
     </url>
     <url>
         <loc>https://{{ site.url }}/donate</loc>
-        <lastmod>2022-07-12</lastmod>
-    </url>
-    <url>
-        <loc>https://{{ site.url }}/blog/trusync</loc>
-        <lastmod>2023-10-29</lastmod>
-    </url>
-    <url>
-        <loc>https://{{ site.url }}/blog/web-dev/nrglab-website-migration</loc>
-        <lastmod>2022-11-15</lastmod>
-    </url>
-    <url>
-        <loc>https://{{ site.url }}/blog/home-server/update-2022-10-background</loc>
-        <lastmod>2022-10-21</lastmod>
-    </url>
-    <url>
-        <loc>https://{{ site.url }}/blog/update/2022-10</loc>
-        <lastmod>2022-10-21</lastmod>
-    </url>
-    <url>
-        <loc>https://{{ site.url }}/blog/node/secure-development</loc>
-        <lastmod>2022-07-04</lastmod>
-    </url>
-    <url>
-        <loc>https://{{ site.url }}/blog/jekyll/getting-started</loc>
-        <lastmod>2022-06-20</lastmod>
+        <lastmod>2024-05-28</lastmod>
     </url>
 </urlset>

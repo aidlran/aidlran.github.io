@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 # Projects
@@ -19,7 +19,3 @@ A cross-platform productivity application suite powered by Astrobase.
 ## [Signals](https://github.com/aidlran/signals)
 
 A simple, intuitive and lightweight reactive programming library based on the signals design pattern, which has been popularised by many modern frontend JavaScript frameworks.
-
----
-
-# Recent Blog Posts
