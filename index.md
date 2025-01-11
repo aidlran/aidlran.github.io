@@ -4,13 +4,17 @@ layout: home
 
 # Projects
 
-## [Librebase](https://librebase.io)
+## [Astrobase](https://astrobase.me)
 
-A novel collection of protocols to build fully decentralized multi-user applications with. Like an open-source, decentralized Firebase.
+Protocols to build local-first, fully decentralized, encrypted, multi-user applications. Like an open-source, decentralized Firebase.
 
-## [LUNA](https://github.com/aidlran/luna)
+## [Luna Pass](https://github.com/aidlran/cli-password-manager)
 
-A cross-platform productivity application suite, based on Librebase, using SvelteKit with Ionic.
+A secure password and secrets management CLI utility powered by Astrobase.
+
+## [Luna](https://github.com/aidlran/luna)
+
+A cross-platform productivity application suite powered by Astrobase.
 
 ## [Signals](https://github.com/aidlran/signals)
 
