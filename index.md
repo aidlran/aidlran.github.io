@@ -2,11 +2,9 @@
 layout: page
 ---
 
-# Projects
+# Recent Projects
 
-## [Optimedia](https://optimedia.loughran.dev){:target="_blank"}
-
-A programmable media API. Allows you to transform images dynamically, such as lazy resizing and optimisation of web assets at request time.
+A selection of my most recent active projects.
 
 ## [Astrobase](https://astrobase.me){:target="_blank"}
 
@@ -16,10 +14,10 @@ Protocols to build local-first, fully decentralized, encrypted, multi-user appli
 
 A secure password and secrets management CLI utility powered by Astrobase.
 
-## [Luna](https://github.com/aidlran/luna){:target="_blank"}
+# I'm also working on...
 
-A cross-platform productivity application suite powered by Astrobase.
+- A programmable media API. Allows you to transform images dynamically, such as lazy resizing and optimisation of web assets at request time.
+- Additional applications based on the Astrobase tech.
+- A cloud storage provider for Astrobase applications.
 
-## [Signals](https://github.com/aidlran/signals){:target="_blank"}
-
-A simple, intuitive and lightweight reactive programming library based on the signals design pattern, which has been popularised by many modern frontend JavaScript frameworks.
+See my [GitHub](https://github.com/aidlran) for more, although be aware a majority of my work is closed-source and is not showcased there.
